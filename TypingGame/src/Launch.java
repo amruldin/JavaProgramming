@@ -25,10 +25,12 @@ public class Launch {
 			score = data.checkInput(usrInput, wo);
 		//	System.out.println(usrInput + "  " + wo);
 			
+			
+			
 		} while (!(usrInput.equalsIgnoreCase("exit")));
 		
 		System.out.println("Score : " + score);
-		System.out.println("Bye!!!");
+		System.out.println("See you Soon!!!");
 		
 
 	}

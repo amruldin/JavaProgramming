@@ -1,4 +1,5 @@
 
+import java.util.Arrays;
 import java.util.Random;
 
 public class Data {
@@ -50,6 +51,15 @@ public class Data {
 		return score;
 		
 	}
+
+
+
+	@Override
+	public String toString() {
+		return "Data [words=" + Arrays.toString(words) + ", size=" + size + ", score=" + score + ", rnd=" + rnd + "]";
+	}
+	
+	
 	
 	
 	
